@@ -7,7 +7,7 @@
   ],
   "version": "0.1.0-alpha",
   "description": "eslint base config for my typescript projects",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Nick Rook <rooknj@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -26,5 +26,28 @@
     "eslint-plugin-prettier": ">=3.1.2",
     "eslint-plugin-react": ">=7.18.3",
     "eslint-plugin-react-hooks": ">=2.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/travis-cli": "^8.3.5",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.0",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
