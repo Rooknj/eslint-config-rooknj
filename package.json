@@ -5,7 +5,7 @@
     "eslintconfig",
     "rooknj"
   ],
-  "version": "0.1.0-alpha",
+  "version": "0.0.0-development",
   "description": "eslint base config for my typescript projects",
   "main": "src/index.js",
   "author": "Nick Rook <rooknj@gmail.com>",
@@ -49,5 +49,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
