@@ -1,16 +1,20 @@
 {
-  "name": "eslint-config-rooknj",
+  "name": "@rooknj/eslint-config",
   "keywords": [
     "eslint",
     "eslintconfig",
     "rooknj"
   ],
-  "version": "1.0.0",
+  "version": "0.1.0-alpha",
   "description": "eslint base config for my typescript projects",
   "main": "index.js",
   "author": "Nick Rook <rooknj@gmail.com>",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rooknj/eslint-config-rooknj"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=2.19.2",
     "@typescript-eslint/parser": ">=2.19.2",
