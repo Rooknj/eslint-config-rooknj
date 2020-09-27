@@ -5,7 +5,7 @@
     "eslintconfig",
     "rooknj"
   ],
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "eslint base config for my typescript projects",
   "main": "src/index.js",
   "author": "Nick Rook <rooknj@gmail.com>",
@@ -16,13 +16,13 @@
     "url": "https://github.com/Rooknj/eslint-config-rooknj"
   },
   "peerDependencies": {
-    "typescript": "^4.0.0",
-    "prettier": "^2.1.0",
-    "react": "^16.13.0",
-    "jest": "^26.0.0",
     "eslint": "^7.9.0",
     "eslint-plugin-jest": "^24.0.2",
-    "eslint-plugin-prettier": "^3.1.4"
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.0.0",
+    "prettier": "^2.1.0",
+    "react": "^16.13.0",
+    "typescript": "^4.0.0"
   },
   "dependencies": {
     "eslint-config-airbnb-typescript": "^10.0.0",
