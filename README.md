@@ -18,21 +18,30 @@ My Personal Eslint Config for Typescript-React applications
 yarn:
 
 ```
-yarn add -D @rooknj/eslint-config
-```
-install peer dependencies:
-```
-yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
+    yarn add -D @rooknj/eslint-config \
+            eslint-plugin-jest@^24.0.2 \
+            eslint-plugin-prettier@3.1.4 \
+            eslint-plugin-import@^2.22.0 \
+            eslint-plugin-jsx-a11y@^6.3.1 \
+            eslint-plugin-react@^7.20.3 \
+            eslint-plugin-react-hooks@^4.0.8 \
+            @typescript-eslint/eslint-plugin@^4.0.1 \
+            @typescript-eslint/parser@^4.2.0
+
 ```
 
 npm:
 
 ```
-npm install --save-dev @rooknj/eslint-config
-```
-install peer dependencies:
-```
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
+npm install --save-dev @rooknj/eslint-config \
+            eslint-plugin-jest@^24.0.2 \
+            eslint-plugin-prettier@3.1.4 \
+            eslint-plugin-import@^2.22.0 \
+            eslint-plugin-jsx-a11y@^6.3.1 \
+            eslint-plugin-react@^7.20.3 \
+            eslint-plugin-react-hooks@^4.0.8 \
+            @typescript-eslint/eslint-plugin@^4.0.1 \
+            @typescript-eslint/parser@^4.2.0
 ```
 
 ## Developing
@@ -51,6 +60,7 @@ Deployments happen automatically using Semantic-Release based off of conventiona
 Commit messages must follow [Conventional Commits](https://www.conventionalcommits.org)
 
 Example Messages
+
 - chore(docs): updated Readme
 - refactor: renamed index.js
 - fix(scope): fixed bug
