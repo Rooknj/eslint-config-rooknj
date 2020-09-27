@@ -18,15 +18,15 @@ My Personal Eslint Config for Typescript-React applications
 yarn:
 
 ```
-    yarn add -D @rooknj/eslint-config \
-            eslint-plugin-jest@^24.0.2 \
-            eslint-plugin-prettier@3.1.4 \
-            eslint-plugin-import@^2.22.0 \
-            eslint-plugin-jsx-a11y@^6.3.1 \
-            eslint-plugin-react@^7.20.3 \
-            eslint-plugin-react-hooks@^4.0.8 \
-            @typescript-eslint/eslint-plugin@^4.0.1 \
-            @typescript-eslint/parser@^4.2.0
+yarn add -D @rooknj/eslint-config \
+        eslint-plugin-jest@^24.0.2 \
+        eslint-plugin-prettier@3.1.4 \
+        eslint-plugin-import@^2.22.0 \
+        eslint-plugin-jsx-a11y@^6.3.1 \
+        eslint-plugin-react@^7.20.3 \
+        eslint-plugin-react-hooks@^4.0.8 \
+        @typescript-eslint/eslint-plugin@^4.0.1 \
+        @typescript-eslint/parser@^4.2.0
 
 ```
 
